@@ -1,6 +1,6 @@
-package service
+package model
 
-class InputUserService {
+class InputUserModel {
     fun readIntFromUser(mensagem: String): Int {
         while (true) {
             print(mensagem)
@@ -16,7 +16,6 @@ class InputUserService {
         while (true) {
             print(mensagem)
             val input = readlnOrNull()
-
             try {
                 return input ?: throw NumberFormatException()
             } catch (e: NumberFormatException) {
