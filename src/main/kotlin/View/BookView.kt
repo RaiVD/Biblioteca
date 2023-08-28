@@ -7,7 +7,7 @@ class BookView() {
     private val bookService = BookService()
     private val inputUserModel = InputUserModel()
     fun start() {
-        println("======================= Biblioteca Sim City =========================")
+        println("======================= Biblioteca SimCity =========================")
         var option: Int
         do {
             printMenu()
